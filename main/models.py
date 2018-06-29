@@ -14,4 +14,5 @@ class Post(models.Model):
         self.save()
 
     def __str__(self):
+        print("hello")
         return self.title
